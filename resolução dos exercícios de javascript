@@ -1,0 +1,77 @@
+1.
+let cidadesbrasileiras= [
+  "Joinville", "São Paulo", "Rio de Janeiro", "Salvador"
+];
+let cidadesestrangeiras= [
+  "Berlim", "Nova Iorque", "Tóquio", "Paris"
+];
+
+let todasascidades= cidadesbrasileiras.concat(cidadesestrangeiras);
+console.log(todasascidades)
+
+
+
+
+
+2.
+let animais= [
+  "leao", "capivara", "calopsita", "onça", "gavião", "porco"
+];
+
+animais.splice (3, 2, "tigre", "cavalo");
+console.log(animais)
+
+
+
+
+
+
+3.
+let numeros=[
+  10, 20, 30, 40,60,70,
+]
+
+let contador= 0
+
+for (let i=0 ; i < numeros.length; i++){
+  if(numeros[i]>50){
+    contador++
+ }  
+}
+
+if (contador === 0) {
+  console.log("O array possui 0 números maiores que 50");
+} else if (contador === 1) {
+  console.log("O array possui 1 número maior que 50");
+} else {
+  console.log(`O array possui ${contador} números maiores que 50`);
+}
+
+
+
+
+
+
+
+4.
+let numerosinteiros=[-5,3, 5, 10, 20]
+let soma= 0
+
+for(let i=0;i< numerosinteiros.length; i++){
+  soma+=numerosinteiros[i];
+}
+console.log(soma)
+
+
+
+
+5.
+let numerosinteiros=[-5,5,10,20]
+let soma=0
+let i=0
+
+while (i<numerosinteiros.length){
+  soma+= numerosinteiros[i];
+  i++
+}
+console.log(soma)
